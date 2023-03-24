@@ -3,6 +3,7 @@ title: "Getting ChatGPT to clean up its mess"
 datePublished: Fri Mar 24 2023 19:09:39 GMT+0000 (Coordinated Universal Time)
 cuid: clfmx2h7p000509js2sv74m3f
 slug: getting-chatgpt-to-clean-up-its-mess
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/__ZMnefoI3k/upload/eda88ddd365a285f12678dcc14a446ec.jpeg
 tags: bash, chatgpt
 
 ---
