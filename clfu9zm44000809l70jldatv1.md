@@ -82,7 +82,7 @@ This served video very quickly and was lightweight, but due to browser security 
 
 #### Attempt 2: inbuilt Python static web server
 
-This is handy but for this case, it failed when I wanted to start videos some way into their duration (I think because it has no `Accept-Ranges: bytes` support.
+This is normally handy but it failed when I wanted to start videos some way into their duration (I think because it has no `Accept-Ranges: bytes` support).
 
 #### Attempt 3 (success!): nginx over docker
 
