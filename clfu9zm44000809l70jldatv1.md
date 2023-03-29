@@ -43,7 +43,7 @@ Whisper can be used via its Python API, but the CLI is great. Its available feat
 
 Many output formats are available, including `srt` and other subtitle formats, and a detailed `json` output. But for my basic purposes, a 3-column tab-delimited record will do: start time, end time, and matching text.
 
-This command will transcribe the speech of every video in my folder, placing the results in `.tsv` files with the same filenames as the \``` .mp4` `` files they were transcribed from:
+This command will transcribe the speech of every video in my folder, placing the results in `.tsv` files with the same filenames as the `.mp4` files they were transcribed from:
 
 ```bash
 find . -type f -exec whisper --output_format tsv --output_dir /videos/ --model base.en {} \;
