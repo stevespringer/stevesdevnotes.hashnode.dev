@@ -32,13 +32,13 @@ pdf = pdfplumber.open(file_path)
 text = "".join(p.extract_text() for p in pdf.pages)
 ```
 
-[I have written up a recent example of a regex-based approach in part 2](https://hashnode.com/draft/65a0092b1d61b62964e3003c).
+[I have written up a recent example of a regex-based approach in part 2](https://stevesdevnotes.hashnode.dev/extracting-pdf-statements-from-your-gmail-inbox).
 
 > If you cannot deduce which field a piece of text belongs to from its context alone, you will have deal with the object model which gives you information about the horizontal and vertical position of every word.
 
 But for tables with just a few well-defined columns, I still think this can be simpler and more reliable than using a dynamic, parameter-tweaked approach to table-identification.
 
-[For more information on this technique, see part 3.](https://hashnode.com/preview/65a0105934b42e6099a001cb)
+[For more information on this technique, see part 3.](https://stevesdevnotes.hashnode.dev/extracting-usable-data-from-pdf-bank-statements)
 
 > For financial statements, don't make the mistake of assuming that every transaction will occupy exactly one line.
 
