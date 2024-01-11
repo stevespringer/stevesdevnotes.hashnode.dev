@@ -19,7 +19,7 @@ As I mentioned in [part 1](https://stevesdevnotes.hashnode.dev/mining-pdfs-for-t
 
 I found that a common-sense analysis of the document structure, combined with running python list comprehensions over the results of [pdfplubmer's](https://github.com/jsvine/pdfplumber) `extract_words` function, was sufficient to place each word within its relevant transaction and column.
 
-Like in part 2, I used Google Colab to conveniently traverse a folder full of documents and produce a single export containing every transaction.
+Like in [part 2](https://stevesdevnotes.hashnode.dev/extracting-pdf-statements-from-your-gmail-inbox), I used Google Colab to conveniently traverse a folder full of documents and produce a single export containing every transaction.
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
