@@ -17,7 +17,7 @@ In this instance, the table was structured so that it was impossible to tell if 
 
 As I mentioned in [part 1](https://stevesdevnotes.hashnode.dev/mining-pdfs-for-tabular-data-part-1), there are technical ways to fine-tune table-extraction, but even in this case, a simple approach was sufficient.
 
-I found that a common-sense analysis of the document structure, combined with running python list comprehensions over the results of [pdfplubmer's](https://github.com/jsvine/pdfplumber) `extract_words` function, was sufficient to place each word within its relevant transaction and column.
+I found that a common-sense analysis of the document structure, combined with running python list comprehensions over the results of [pdfplumber's](https://github.com/jsvine/pdfplumber)`extract_words` function, was sufficient to place each word within its relevant transaction and column.
 
 Like in [part 2](https://stevesdevnotes.hashnode.dev/extracting-pdf-statements-from-your-gmail-inbox), I used Google Colab to conveniently traverse a folder full of documents and produce a single export containing every transaction.
 
